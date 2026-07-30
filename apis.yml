@@ -1,8 +1,29 @@
 aid: alsym-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alsym-energy.png
 name: Alsym Energy
-description: 'Alsym Energy is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: energy-infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Alsym Energy is a Malden, Massachusetts battery technology company founded in 2015
+  by Mukesh Chatter, Rahul Mukherjee, and Kripa Varanasi to develop low-cost,
+  high-performance rechargeable batteries that are free of lithium and cobalt. Its
+  Na-Series is a line of non-flammable, non-toxic sodium-ion batteries aimed at grid and
+  utility-scale energy storage, data-center backup, and industrial applications where
+  safety and supply-chain resilience matter. The company uses a proprietary
+  AI/computational-materials platform to accelerate battery chemistry development, and has
+  raised roughly $111M+ including a $78M round in 2024 led by Tata Limited and General
+  Catalyst. Alsym is a hardware/energy-infrastructure manufacturer and does not currently
+  publish a public developer API; this profile captures its identity and public web
+  surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/alsym-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
@@ -14,9 +35,29 @@ modified: '2026-07-17'
 tags:
 - Company
 - Energy Infrastructure
+- Energy Storage
+- Batteries
+- Sodium-Ion
+- Grid Storage
+- Data Centers
+- Clean Energy
+- Manufacturing
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alsym-energy-domain-security.yml
+- type: Website
+  url: https://www.alsym.com/
+- type: Blog
+  url: https://www.alsym.com/newsroom
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
