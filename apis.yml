@@ -50,7 +50,7 @@ tags:
 - Batteries
 - Sodium-Ion
 - Grid Storage
-- Data-Center
+- Data Center
 - Clean Energy
 - Manufacturing
 - Hardware
@@ -65,6 +65,7 @@ tags_raw:
 - Clean Energy
 - Manufacturing
 - Hardware
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
